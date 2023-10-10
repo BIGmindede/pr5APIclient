@@ -18,8 +18,7 @@ function CreateComponent() {
             .catch(err => console.log(err))
     }
     return (
-        <div className="d-flex vh-100 bg-primary justify-content-center align-items-center">
-            <div className="w-50 bg-white rounded p-3">
+        <div className="d-flex vh-100 bg-dark justify-content-center align-items-center">
                 <form onSubmit={Submit}>
                     <h2>Add component</h2>
                     <div className="mb-2">
@@ -40,7 +39,6 @@ function CreateComponent() {
 
                     <button className="btn btn-success">Submit</button>
                 </form>
-            </div>
         </div>
     )
 }
