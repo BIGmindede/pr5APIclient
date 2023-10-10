@@ -20,8 +20,7 @@ function Components() {
         .catch(err => console.log(err))
     }
     return (
-        <div className="d-flex vh-100 bg-secondary justify-content-center align-items-center">
-            <div className="w-50 bg-white rounded p-3">
+        <div className="d-flex vh-100 bg-dark justify-content-center align-items-center">
                 <Link to="/create" className="btn btn-success">Add component</Link>
                 <table className="table">
                     <thead>
@@ -48,7 +47,6 @@ function Components() {
                         }
                     </tbody>
                 </table>
-            </div>
         </div>
     )
 }
